@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--Funnel.AIML directs you here-->
+<topic name="jobtype">
+    <category>
+        <pattern>1</pattern>
+        <template><think><set name="topic">software</set></think>
+        What would you like to know about becoming a Software Developer?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>2</pattern>
+        <template><think><set name="topic">systems</set></think>
+        What would you like to know about becoming a Systems Engineer?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>3</pattern>
+        <template><think><set name="topic">data</set></think>
+        What would you like to know about becoming a Data Analyst?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>4</pattern>
+        <template><think><set name="topic">cyber</set></think>
+        What would you like to know about becoming an Information Security Analyst?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>5</pattern>
+        <template><think><set name="topic">it</set></think>
+        What would you like to know about becoming an IT Specialist?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>6</pattern>
+        <template><think><set name="topic">general</set></think>
+        I can give you general career advice. What would you like to know?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+        </ol>
+        </template>
+    </category>
+</topic>
+</aiml>

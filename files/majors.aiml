@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="majors">
+<category>
+    <pattern>2</pattern>
+    <template>Great! A common job for a new CS graduate is Systems Engineer. Would you like advice on that?
+    <think><set name="topic">systems</set></think>
+        <button>
+        <text>yes</text>
+        <postback>1</postback>
+    </button>
+        <button>
+        <text>no</text>
+        <postback>no</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>5</pattern>
+    <template>Great! A common job for a new CS graduate interested in IT is an IT Specialist. Would you like advice on that?
+    <think><set name="topic">it</set></think>
+        <button>
+        <text>yes</text>
+        <postback>1</postback>
+    </button>
+        <button>
+        <text>no</text>
+        <postback>no</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>3</pattern>
+    <template>Great! A common job for a new CS graduate interested in Data Science is Data Analyst. Would you like advice on that?
+    <think><set name="topic">data</set></think>
+    <button>
+        <text>yes</text>
+        <postback>1</postback>
+    </button>
+        <button>
+        <text>no</text>
+        <postback>no</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>4</pattern>
+    <template>Great! A common job for a new CS graduate interested in Cybersecurity is an Information Security Analyst. Would you like advice on that?
+    <think><set name="topic">cyber</set></think>
+    <button>
+        <text>yes</text>
+        <postback>1</postback>
+    </button>
+        <button>
+        <text>no</text>
+        <postback>no</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>1</pattern>
+    <template>Great! A common job for a new CS graduate interested in Software Development is Software Engineer. Would you like advice on that?
+    <think><set name="topic">software</set></think>
+    <button>
+        <text>yes</text>
+        <postback>1</postback>
+    </button>
+        <button>
+        <text>no</text>
+        <postback>no</postback>
+    </button>
+    </template>
+</category>
+</topic>
+</aiml>

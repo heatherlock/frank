@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--catch all-->    
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry. I only exist to talk about career advice. Type career to learn more.</template>
+  </category>
+  
+<!--Responding to Hello-->
+<category>
+<pattern><set>hello</set></pattern>
+    <template>
+        <random>
+            <li>Hi There. What brings you here today?</li>
+            <li>Hello. How can I help you?</li>
+            <li>Hey. What do you need?</li>
+            <li>Hey there. Can I help you with something?</li>
+            <li>Howdy. How can I serve you?</li>
+        </random>
+    </template>
+  </category>
+</aiml>

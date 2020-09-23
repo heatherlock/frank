@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--Start talking about jobs, graduation, career-->
+<!--all choices send you to funnel.aiml-->
+<category>
+    <pattern>^ <set>career</set> ^</pattern>
+    <template>Okay great! Let's talk about your career. Is there a particular job you are interested in?
+    <think><set name="topic">jobs</set></think>
+    <button>
+        <text>Yes</text>
+        <postback>YESTOJOB</postback>
+    </button>
+        <button>
+        <text>No</text>
+        <postback>NOTOJOB</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>^ <set>grad</set> ^</pattern>
+    <template>Wow! graduation, you must be ready to talk about career advice. Is that so?
+    <think><set name="topic">advice</set></think>
+        <button>
+        <text>Yes</text>
+        <postback>YESTOJOB</postback>
+    </button>
+        <button>
+        <text>No</text>
+        <postback>NOTOJOB</postback>
+    </button>
+    </template>
+</category>
+</aiml>

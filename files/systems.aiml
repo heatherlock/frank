@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="systems">
+<category>
+        <pattern>1</pattern>
+        <template>A Systems Engineer implements, supports, maintains, and manages IT services, including networking, IT security, email, and disaster recovery.
+        <br/>Would you like to know anything else about becoming a Systems Engineer?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>2</pattern>
+        <template>The Responsibilities of a Sofware Engineer include monitoring systems, oversee development and installation of new software and hardware, and ensure constant availability of technical resources.
+                <br/>Would you like to know anything else about becoming a Systems Engineer?
+            <ol>    
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>3</pattern>
+        <template>The skills required for a Systems Engineer are analytical thinking, project management, good clear communication, and of course industry specific skills, such as interacting with hardware, and scripting.
+                <br/>Would you like to know anything else about becoming a Systems Engineer?
+                <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>4</pattern>
+        <template>Some interviewing tips are make sure to understand what systems you would be overseeing so that you can discuss them in your itnerview.
+               <br/> Would you like to know anything else about becoming a Systems Engineer?
+            <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>5</pattern>
+        <template>Your salary expectations are an average $92,508 per year. 
+               <br/> Would you like to know anything else about becoming a Systems Engineer?
+               <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>no</pattern>
+        <template>Okay, if you want to know about another career, just type in career.<think><set name="topic"></set></think></template>
+    </category>
+        <category>
+        <pattern>*</pattern>
+        <template>please enter a number 1-6 or no</template>
+    </category>
+</topic>
+</aiml>

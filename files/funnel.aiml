@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- choice will send you to the AIML file associated with that job-->
+<topic name="jobs">
+    <category>
+        <pattern>YESTOJOB</pattern>
+        <template>Great what job are you interested in?
+        <think><set name="topic">jobtype</set></think>
+        <ol>
+            <li>Software Engineer</li>
+            <li>Systems Engineer</li>
+            <li>Data Analyst</li>
+            <li>Information Security Analyst</li>
+            <li>IT Specialist</li>
+            <li>Other</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>NOTOJOB</pattern>
+        <template>Okay then, what did you focus on in your studies or what general topic seems most interesting to you? (Type the number)
+        <think><set name="topic">majors</set></think>
+        <ol>
+            <li>Software Development</li>
+            <li>Just general Computer Science</li>
+            <li>Data Science</li>
+            <li>Cybersecurity</li>
+            <li>Information Technology</li>
+        </ol>
+        </template>
+    </category>
+</topic>
+<topic name="advice">
+<category>
+    <pattern>YESTOJOB</pattern>
+    <template>Great what job are you interested in?
+    <think><set name="topic">jobtype</set></think>
+    <ol>
+        <li>Software Engineer</li>
+        <li>Systems Engineer</li>
+        <li>Data Analyst</li>
+        <li>Information Security Analyst</li>
+        <li>IT Specialist</li>
+        <li>Other</li>
+    </ol>
+    </template>
+</category>
+<category>
+    <pattern>NOTOJOB</pattern>
+    <template>hmmm... well my job is to dole out career advice. I recommend you refer to the school website for the advice you seek.</template>
+</category>
+</topic>
+</aiml>

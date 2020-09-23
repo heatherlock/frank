@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<topic name="software">
+    <category>
+        <pattern>1</pattern>
+        <template>A Software Engineer designs, develops, tests, maintains, and/or evaluates Computer Software. They work in just about every Indsutry.
+        <br/>Would you like to know anything else about becoming a Software Engineer?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>2</pattern>
+        <template>The Responsibilities of a Sofware Engineer include analyzing user needs, following best practices for the software development life cycle, create documentation, and debug their code.
+                <br/>Would you like to know anything else about becoming a Software Engineer?
+            <ol>    
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>3</pattern>
+        <template>The skills required for a Software Engineer are analytical thinking, problem solving, good clear communication, conflict resolution, and of course industry specific skills, such as using Object Oriented Programming languages.
+                <br/>Would you like to know anything else about becoming a Software Engineer?
+                <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>4</pattern>
+        <template>Some interviewing tips are make sure to understand what specific skills, languages, frameworks are required for your position. Be able to speak in depth about those subjects, and possibly solve a problem using one or more of them.
+               <br/> Would you like to know anything else about becoming a Software Engineer?
+            <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>5</pattern>
+        <template>Your salary expectations are an average $107,542 per year. 
+               <br/> Would you like to know anything else about becoming a Software Engineer?
+               <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>no</pattern>
+        <template>Okay, if you want to know about another career, just type in career.<think><set name="topic"></set></think></template>
+    </category>
+        <category>
+        <pattern>*</pattern>
+        <template>please enter a number 1-6 or no</template>
+    </category>
+</topic>
+</aiml>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="cyber">
+    <category>
+    <pattern>1</pattern>
+        <template>A Information Security Analyst takes measures to protect a company's sensitive and mission-critical data, staying one step ahead of cyber attackers. They do this by coming up with innovative solutions to prevent critical information from being stolen, damaged or compromised by hackers.
+        <br/>Would you like to know anything else about becoming a Information Security Analyst?
+        <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>2</pattern>
+        <template>The Responsibilities of a Sofware Engineer risk and vulnerability assessments as well as defense planning. THey must stay current on security threats, as well as promote security awareness within their company.
+                <br/>Would you like to know anything else about becoming a Information Security Analyst?
+            <ol>    
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>3</pattern>
+        <template>The skills required for a Information Security Analyst are analytical and creative thinking, good clear communication, have good attention to detail and maintainence of fantastic IT Security Knowledge.
+                <br/>Would you like to know anything else about becoming a Information Security Analyst?
+                <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>4</pattern>
+        <template>Some interviewing tips are make sure to understand what systems you would be overseeing so that you can discuss them in your itnerview.
+               <br/> Would you like to know anything else about becoming a Information Security Analyst?
+            <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>5</pattern>
+        <template>Your salary expectations are an average $98,350 per year. 
+               <br/> Would you like to know anything else about becoming a Information Security Analyst?
+               <ol>
+            <li>Description</li>
+            <li>Responsibilities</li>
+            <li>Skills</li>
+            <li>Interviewing Tips</li>
+            <li>Salary Expectations</li>
+            </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>no</pattern>
+        <template>Okay, if you want to know about another career, just type in career.<think><set name="topic"></set></think></template>
+    </category>
+        <category>
+        <pattern>*</pattern>
+        <template>please enter a number 1-6 or no</template>
+    </category>
+</topic>
+</aiml>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>1</pattern>
+        <template>Jobsites such as LinkedIn and Glassdoor are a great place to search for jobs. You can also check directly on the website of a company that you are interested in working for. Certain companies, such as Amazon or Google even have new graduate and student protal for job seekers.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>2</pattern>
+        <template>Some new graduates have found the use of recruiters to be very useful. You can be somewhat passive about it, such as marking yourself as open to recruitment on LinkedIn, to working with an actual Recruter. Some boot camps have recruiting as part of their model.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>3</pattern>
+        <template>Boot Camps can help you develop a skillset that is directly applicable to your desired job, some are more certificate based, others have built in mentorship and even job guarantee upon completion.
+                <br/>Would you like to know anything else about becoming a Information Security Analyst?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>4</pattern>
+        <template>Sometimes the key to getting a job is having a concrete way to show off a skill. A certificate is one way to do so. Usually it involves passing a standardized test, and they are often associated with proprietary software and/or hardware, such as Oracle SQL or Cisco CCNA.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>5</pattern>
+        <template>A good resume is key to getting a job.  I would highly recommend going ot the Career Center to have a one on one with a counselor who can look at your resume in person and give you advice.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+        <category>
+        <pattern>6</pattern>
+        <template>Your resume shows your skills and accomplishments, while your cover letter shows your personailty and your interest in the company to which you are applying. Again, the Career Center is excellent with in person help.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>7</pattern>
+        <template>Follow these 5 simple rules for your job interview 1. Be early 2. Research the company 3. Be ready to speak to your skills and past experience 4. Eye Contact is imperative 5.Smile and show your personality.
+        <br/>Is there any other general advice you would like to know about?
+        <ol>
+            <li>Jobsites</li>
+            <li>Recruiters</li>
+            <li>Boot Camps</li>
+            <li>Certificates</li>
+            <li>Resume</li>
+            <li>Cover Letter</li>
+            <li>Interview Tips</li>
+            <li>Request Job Type</li>
+        </ol>
+        </template>
+    </category>
+    <category>
+        <pattern>8</pattern>
+        <template>What job title would you like to request I add to my knowledge base?</template>
+    </category>
+        <category>
+        <pattern>no</pattern>
+        <template>Okay, if you want to know about another career, just type in career.<think><set name="topic"></set></think></template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>please enter a number 1-8 or no</template>
+    </category>
+</aiml>
